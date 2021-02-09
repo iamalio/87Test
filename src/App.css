@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+.app {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-family: "Open Sans", sans-serif;
+  width: 1920px;
+  height: 3240px;
+  max-height: 5500px;
+  background-color: rgb(249, 250, 252);
+  overflow-x: hidden;
+}

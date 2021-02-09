@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap");
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+.team {
+  position: absolute;
+  width: 1204px;
+  height: 730px;
+  left: 90px;
+  top: -200px;
+}
+.team h1 {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  width: 1140px;
+  height: 65px;
+  left: 390px;
+  top: 2026px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.285em;
+
+  color: #38394f;
+}
+.team button {
+  border: none;
+  align-content: center;
+  margin-left: 0;
+}
+.team__blue img {
+  position: absolute;
+  width: 215px;
+  height: 215px;
+  left: 396px;
+  top: 2033px;
+}
+.team__burgundy img {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 570px;
+  top: 1726px;
+}
+.team__green img {
+  position: absolute;
+  width: 205px;
+  height: 205px;
+  left: 912px;
+  top: 1787px;
+}
+.team__yellow img {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 697px;
+  top: 2322px;
+}
+.team__red img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1257px;
+  top: 2153px;
+}
+.team__orange img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1289px;
+  top: 1672px;
+}
+.team__purple img {
+  position: absolute;
+  width: 192px;
+  height: 192px;
+  left: 1462px;
+  top: 1894px;
+}

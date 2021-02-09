@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap");
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+.projects {
+  position: absolute;
+  width: 1811px;
+  height: 974px;
+  left: 0px;
+  top: -110px;
+  padding-bottom: 200px;
+  overflow-x:;
+}
+.projects h1 {
+  position: relative;
+  transform: rotate(90deg);
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 18px;
+  margin-top: 1140px;
+  margin-left: 290px;
+  z-index: 99;
+  height: 140px;
+  font-size: 18px;
+  width: 190px;
+  letter-spacing: 0.08em;
+}
+.projects__carousel {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 1544px;
+  height: 210px;
+  left: 390px;
+  top: 1069px;
+  padding-left: 91px;
+  background: linear-gradient(180deg, #25293e 0%, #38394f 100%);
+  border-radius: 10px;
+}
+.projects__item {
+  width: 520px;
+  height: 336px;
+  padding: 0;
+  margin-top: -68px;
+  margin-left: 20px;
+  box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  border: none;
+}
+.projects__item img {
+  width: 520px;
+  height: 336px;
+  border-radius: 10px;
+  margin: 0;
+}
+.projects__buttons {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 1424px;
+  width: 500px;
+  margin-left: 720px;
+}
+.projects__viewBtns {
+  width: 183px;
+  height: 51px;
+  margin-left: 30px;
+  font-family: "Open Sans", sans-serif;
+  color: #7e53fd;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  border: 1px solid #7e53fd;
+  box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-color: rgb(249, 250, 252);
+}

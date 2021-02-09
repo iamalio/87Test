@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+.custom {
+  position: absolute;
+  width: 1953px;
+  height: 911px;
+  left: 390px;
+  top: 2433px;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+}
+.custom h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  margin-left: 390px;
+  color: #38394f;
+}
+.custom__split {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.custom__leftHalf {
+  width: 173px;
+  height: 262px;
+}
+.custom__workTypesList {
+  width: 273px;
+  height: 262px;
+  left: 390px;
+  top: 2802px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 250%;
+  /* or 35px */
+  color: #000;
+  margin-top: 20px;
+}
+.custom__workTypesItem{
+    margin: 5px;
+}
+.custom__workTypesItem:hover span{
+  font-weight: bold;
+  color: #38af43;
+}
+.custom__workTypesItem:hover {
+  color: #000;
+  font-weight: bold;
+}
+.custom__rightHalf{
+    width: 947px;
+    height: 435px;
+    background: #FFFFFF;
+box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+margin-left:80px;
+}
+.custom__rightHalfBanner{
+    background-color: rgb(229, 229, 229);
+    height:37px;
+}
+.custom__rightHalfTab{
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    height: 37px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: #38af43;
+}
+.custom__rightHalfTab h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.custom__tabContent{
+    width: 947px;
+    display: flex;
+    flex-direction: row;
+}
+.custom__tabContentText{
+    width: 315px;
+    width: 290px;
+    margin: 10px;
+}
+.custom__tabContentExamples{
+    display: flex;
+    flex-direction: row;
+}

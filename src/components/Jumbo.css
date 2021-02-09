@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/*
+font-family: 'Oswald', sans-serif;
+*/
+.jumbo {
+  width: 1325px;
+  height: 903px;
+  max-height: 10000px;
+  display: flex;
+  flex-direction: row;
+}
+.jumbo__left {
+  display: flex;
+  flex-direction: column;
+}
+.jumbo__leftPitch{
+    position: absolute;
+width: 590px;
+height: 148px;
+left: 390px;
+top: 204px;
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 58px;
+line-height: 77px;
+color: #000000;
+letter-spacing: -0.04em;
+}
+.jumbo__leftSubtext{
+    position: absolute;
+width: 560px;
+height: 30px;
+left: 390px;
+top: 371px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+color: #7C828D;
+}
+.jumbo__left input{
+    position: absolute;
+width: 367px;
+height: 51px;
+left: 390px;
+top: 445px;
+background: #FFFFFF;
+box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+border: none;
+padding: 20px;
+}
+.jumbo__left button{
+    position: absolute;
+width: 173px;
+height: 51px;
+left: 390px;
+top: 527px;
+background: #7E53FD;
+box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+border: none;
+color: #fff;
+}
+.jumbo__right {
+    position: absolute;
+  background-image: url(../images/shapes.png);
+  height: 800px;
+  width: 933px;
+  left: 880px;
+  top: -22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbo__rightImg{
+    position: absolute;
+width: 561px;
+height: 298px;
+left: 159px;
+top: 240px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(../images/video.png);
+box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.jumbo__rightImg button{
+width: 68px;
+height: 68px;
+left: 1216px;
+padding: 20px;
+margin-top: 100px;
+margin-left: 240px;
+z-index: 99;
+background:#FFF;
+box-shadow: 0px 9px 25px 10px rgba(0, 0, 0, 0.25);
+border-radius: 59px;
+border: none;
+}
+
